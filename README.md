@@ -35,8 +35,8 @@ $ticket_data = json_encode(array(
 
 print_r($ticket_data);
 
-#alert(book.title);
-#alert(ticket_data.email);
+# alert(book.title);
+# alert(ticket_data.email);
 
 $url = "https://$yourdomain.freshdesk.com/api/v2/tickets";
 $ch = curl_init($url);
